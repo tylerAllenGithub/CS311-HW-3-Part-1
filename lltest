@@ -1,0 +1,122 @@
+Script started on Fri 14 Oct 2016 06:50:37 PM PDT
+]0;allen122@empress:~/cs311/HWPrograms/forHW3[allen122@empress forHW3]$ g++ HW3P1client.cpp llist.cpp
+]0;allen122@empress:~/cs311/HWPrograms/forHW3[allen122@empress forHW3]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>1
+CASE 1:------------------- 
+1
+The list is empty.
+2
+[ empty ]
+3
+4
+[ 1 2 3 4 ]
+5
+Removed: 1
+Removed: 2
+6
+[ 3 4 ]
+7
+List is not empty.
+8
+Removed: 4
+Removed: 3
+9
+The list is empty.
+calling the llist destructor.
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>2
+Case 2: -----------------------
+1
+2
+3
+Removed: 4
+4
+5
+[ 5 6 8 9 ]
+6
+7
+8
+9
+Index Out of Range
+10
+Index Out of Range
+11
+[ 4 5 6 7 8 9 10 ]
+12
+Removed: 4
+13
+Removed: 10
+14
+Removed: 7
+15
+Index Out of Range
+16
+Index Out of Range
+17
+[ 5 6 8 9 ]
+18
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+19
+[ empty ]
+calling the llist destructor.
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>3
+Case 3:-------------------- 
+1
+Index Out of Range
+2
+No elements to delete.
+calling the llist destructor.
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>4
+Case 4:------------------------ 
+1
+Index Out of Range
+2
+No elements to delete
+calling the llist destructor.
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+   (4) Case 4 
+    Enter ( 0 ) to quit 
+===>0
+]0;allen122@empress:~/cs311/HWPrograms/forHW3[allen122@empress forHW3]$ exit
+exit
+
+Script done on Fri 14 Oct 2016 06:52:05 PM PDT
